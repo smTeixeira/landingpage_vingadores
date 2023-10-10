@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vingadores</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/logo_vingadores.png" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <img src="./dist/images/hero_vingadores.jpg" alt="">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="./dist/images/logo_vingadores.png" alt="Vingadores">
+            </div>
+            <h3 class="title--small">
+                A melhor história de ficção ja feita!
+            </h3>
+            <p>
+                <a href="#" class="link-text">Assista no Disney+</a>
+                <br>
+                <span class="text">
+                    R$ 27,90/mês ou R$ 279,90/ano à vista*
+                </span>
+            </p>
+            <div class="hero__content__disney">
+                <img src="./dist/images/disneyplus.svg" alt="Disney+ - Star+ - Combo+">
+            </div>
+
+            <p class="text--small">
+                *O preço pode variar caso a assinatura seja feita através de outras plataformas.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/vingadores_resumo.jpg" alt="Imagem Vingadores">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Resumo</h2>
+            <p class="text--big">Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores:
+                Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony
+                Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers
+                (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra
+                o titã louco.</p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="vingadores" class="shows__tabs__button shows__tabs__button--is-active">
+                Vingadores
+            </button>
+            <button data-tab-button="marvel" class="shows__tabs__button">
+                Mais Conteúdo Marvel
+            </button>
+            <button data-tab-button="disney_plus" class="shows__tabs__button">
+                Disney+
+            </button>
+        </nav>
+        <ul data-tab-id="vingadores" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/vingadores_1.jpg" alt="Os Vingadores">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/vingadores_3.webp" alt="Era de Ultron">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/vingadores-guerra-infinita.jpg" alt="Guerra infinita">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/vingadores_ultimato.jpg" alt="Ultimato">
+            </li>
+        </ul>
+        <ul data-tab-id="marvel" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/homem_aranha.webp" alt="homem aranha">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/pantera_negra.jpg" alt="pantera negra">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/capita_marvel.jpg" alt="Capitã Marvel ">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/thor.jpg" alt="thor">
+            </li>
+        </ul>
+        <ul data-tab-id="disney_plus" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/bluey.jpg" alt="bluey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="cavaleira da lua">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="O incrivel dr pol">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="obi wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/red.jpg" alt="red">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="tudo igual sqn">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/the_santa_clauses.jpg" alt="The santa clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/spidey.jpg" alt="spidey">
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/logo_vingadores.png" alt="vingadores">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/globe.svg" alt="Globo do Mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Politica de Privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Anúncios Personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Dispositivos Compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Sobre os Vingadores</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® 2023 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura
+                paga. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p class="text--small">
+                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é
+                comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas,
+                12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+            </p>
+        </div>
+    </footer>
+    <script src="./dist/js/main.js"></script>
+</body>
+
+</html>
